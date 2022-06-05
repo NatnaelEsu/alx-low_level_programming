@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Return: Always 0(wow)
  *
@@ -9,8 +9,13 @@
 
 int main(void)
 {
-	putchar("0123456789");
+	int i = '0';
+
+	while (i <= '9')
+	{
+		putchar(i);
+		i++;
+	}
 	putchar('\n');
 	return (0);
 }
-
