@@ -2,39 +2,23 @@
 #include "main.h"
 
 /**
- * main -Entry point
+ * _abs - absolute value of an integer
+ * @r: the input that is going to be checked
  *
- * Return: Always 0 True
+ * Return: return the absolute value of r
  */
 
-int main(void)
+int _abs(int r)
 {
-	int print_sign(int n);
-	return (0);
-}
+	if (r < 0)
+	{
+		r = r * -1;
+		return (r);
+	}
 
-/**
- * print_sign - check if it is a letter
- * @n: the input that is going to be checked
- *
- * Return: 1 if it is a letter or 0 otherwise
- */
+	else
+	{
+		return (r);
+	}
 
-int print_sign(int n)
-{
-	if (n > 0)
-	{
-		_putchar('+');
-		return (1);
-	}
-	else if (n < 0)
-	{
-		_putchar('-');
-		return (-1);
-	}
-	else if (n == 0)
-	{
-		_putchar('0');
-		return (0);
-	}
 }
