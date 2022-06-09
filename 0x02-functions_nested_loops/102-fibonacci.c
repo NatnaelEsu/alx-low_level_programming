@@ -16,10 +16,10 @@ int main(void)
 
 	while (n < 50)
 	{
-		printf("%d", i);
 		k = i + j;
 		i = j;
 		j = k;
+		printf("%d", k);
 
 		if (n == 49)
 		{
