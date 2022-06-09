@@ -19,7 +19,7 @@ int main(void)
 		k = i + j;
 		i = j;
 		j = k;
-		printf("%d", k);
+		printf("%lu", k);
 
 		if (n == 49)
 		{
