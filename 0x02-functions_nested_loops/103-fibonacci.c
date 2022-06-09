@@ -11,6 +11,7 @@ int main(void)
 	unsigned long int n, i, j, k, sum;
 
 	i = 0;
+	n = 0;
 	j = 1;
 	sum = 0;
 
