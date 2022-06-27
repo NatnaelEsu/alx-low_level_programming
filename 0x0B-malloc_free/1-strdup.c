@@ -23,4 +23,5 @@ char *_strdup(char *str)
 	{
 		dup[len] = *--str;
 	}
+	return (dup);
 }
